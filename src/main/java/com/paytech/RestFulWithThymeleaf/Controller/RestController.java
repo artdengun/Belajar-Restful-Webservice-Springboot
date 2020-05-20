@@ -24,7 +24,7 @@ public class RestController {
 public ModelMap daftarClient(){
     return new ModelMap().addAttribute("daftarClient",siupRestClient.dataClient());
     
-    }
+    }   
     
 @GetMapping("/rest/form")
 public ModelMap daftarForm(){
